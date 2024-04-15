@@ -1,0 +1,22 @@
+[
+    {
+        "nomeProduto": "Aero Daily Fitness Tee",
+        "tamanho": "M",
+        "cor": "Black",
+        "quantidade": 3
+
+    },
+    {
+        "nomeProduto": "Josie Yoga Jacket",
+        "tamanho": "XS",
+        "cor": "Black",
+        "quantidade": 5
+    },
+    {
+        "nomeProduto": "Geo Insulated Jogging Pant",
+        "tamanho": "33",
+        "cor": "Red",
+        "quantidade": 15
+    }
+
+]
