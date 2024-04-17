@@ -23,6 +23,7 @@ it.only('Deve adicionar produto ao carrinho e finalizar a compra', () => {
     cy.get('.woocommerce-button') .click()
     cy.get('.woocommerce-terms-and-conditions-checkbox-text') .click()
     cy.get('#place_order') .click()
+    cy.get('.woocommerce-notice') .should('contain', 'Obrigado. Seu pedido foi recebido.')
 
     
 });
