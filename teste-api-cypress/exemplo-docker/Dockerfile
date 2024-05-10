@@ -1,4 +1,4 @@
-FROM baseImage
+FROM localhost:8080
 
 RUN apt-get update
 
