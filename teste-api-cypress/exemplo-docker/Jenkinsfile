@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                git branch: 'main', url: 'https://github.com/ferrbianca/teste-api-cypress/exemplo-docker/Jenkinsfile.git'
+                git branch: 'main', url: 'https://github.com/ferrbianca/teste-ebac-ui/tree/main/teste-api-cypress/exemplo-docker.git'
                 bat 'npm install'
             }
         }
